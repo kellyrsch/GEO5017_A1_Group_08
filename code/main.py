@@ -138,6 +138,9 @@ x7 = D_t7 @ params_x2
 y7 = D_t7 @ params_y2
 z7 = D_t7 @ params_z2
 
+p7 = np.array([x7, y7, z7])
+print("predicted next point: ", p7)
+
 # plot the new position together with the previous ones
 fig = plt.figure()
 ax = fig.add_subplot(projection='3d')
