@@ -23,6 +23,7 @@ print("x: ", x)
 print("y: ", y)
 print("z: ", z)
 
+## Plot tracked points
 # fig = plt.figure()
 # ax = fig.add_subplot(projection='3d')
 # ax.plot(x, y, z)
@@ -107,7 +108,7 @@ D2 = np.column_stack([np.ones(len(T)), T, T**2])
 
 
 # Set learning rate and max number of iterations
-learning_rate2 = 0.00001
+learning_rate2 = 0.0001
 max_i2 = 450000
 
 ## Drone flies with constant velocity, equation in the form: p(t) = a0 + a1*t
